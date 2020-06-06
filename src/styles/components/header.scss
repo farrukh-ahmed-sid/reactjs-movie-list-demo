@@ -1,0 +1,32 @@
+
+.pageHeader {
+    padding-bottom: 1rem;
+    border: 1px solid grey;
+    box-shadow: 0rem 0.4rem 0.4rem #888888;
+}
+.pageHeader a {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: lavender;
+    border: black;
+    border-radius: 0.5em;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: black;
+    display: inline-block;
+    width: 6rem;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.pageHeader a:hover{
+    background-color: lemonchiffon;
+}
+
+.pageHeader a:active{
+    background-color: lightgreen;
+}
+
+.pageHeader h1{
+    text-align: center;
+    text-shadow: 0 0 3px grey, 0 0 5px lavender;
+}

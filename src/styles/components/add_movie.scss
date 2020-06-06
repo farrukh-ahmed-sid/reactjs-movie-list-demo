@@ -1,0 +1,39 @@
+.addMovie{
+    justify-content: left;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.addMovieDiv button{
+    width: 15.5rem;
+    background-color: lavender;
+    cursor: pointer;
+    border: 0.1rem solid lightgrey;
+}
+
+.addMovie *{
+    display: block;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    width: 15rem;
+}
+
+.addMovie .input{
+    border: 0.02rem solid lightgrey;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.addMovie button{
+    border-radius: 0.2rem;
+    border: 0.02rem solid lightgrey;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 16.1rem;
+    transition-duration: 0.4s;
+}
+
+.addMovie button:hover{
+    background-color: lemonchiffon;
+}
+.addMovie button:active{
+    background-color: lightgreen;
+}
